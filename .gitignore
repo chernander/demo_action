@@ -51,3 +51,6 @@ build/
 .flutter-plugins-dependencies
 .env
 .env.*
+
+# FVM Version Cache
+.fvm/
