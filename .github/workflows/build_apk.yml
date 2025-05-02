@@ -27,7 +27,7 @@ jobs:
         run: flutter build apk --release
 
       - name: Subir artefacto APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: app-release
           path: build/app/outputs/flutter-apk/app-release.apk
