@@ -12,7 +12,7 @@ Future<void> main() async {
     await dotenv.load(fileName: envPath);
     envValue = dotenv.env['APP_ENV'] ?? envValue;
   } else {
-    debugPrint('⚠️ Archivo .env no encontrado, usando valor por defecto');
+    debugPrint('⚠️ Archivo .env no encontrado, usando valor porssss defecto');
   }
 
   runApp(MyApp(envValue: envValue));
